@@ -1,0 +1,13 @@
+<!doctype html><html><head></head><body><p>
+  Check if it is Friday the Thirteenth
+</p>
+<button onclick="checkIt()">Check</button><script type="text/javascript">function checkIt() {
+	var today = new Date();
+	var date = today.getDate();
+	var day = today.getDay();
+	if (date == 13 && day == 6){
+    alert("Warning: It is Friday the Thirteenth.")
+  }else{
+    alert("Congratulations: It is not Friday the Thirteenth.")
+  }
+}</script></body><html>
